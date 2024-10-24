@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/mongodb
+  main:
+    allow-bean-definition-overriding: true
+
+# Aggiungi il percorso del file XML
+input:
+  file:
+    path: C:\entitiesConfluence.xml
